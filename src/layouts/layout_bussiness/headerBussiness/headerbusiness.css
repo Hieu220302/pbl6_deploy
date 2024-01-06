@@ -1,0 +1,39 @@
+.headlogin {
+    padding: 1px 0;
+    text-align: center;
+}
+
+.headercontainer {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background-color: #606eca;
+}
+
+.imgheaderlogin {
+    max-width: 200px; /* Đặt kích thước tối đa cho hình ảnh */
+    margin-top: 10px;
+    height: 100px;
+}
+
+.dn {
+    font-size: 18px;
+}
+
+.lableheaderlogin {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding-left: 60%;
+}
+
+.label-left {
+    margin-right: auto; /* Đẩy label này về bên trái */
+    font-size: 20;
+}
+.menuhearbussiness {
+    margin-left: 350px;
+}
+.h3dn {
+    margin-left: 320px;
+}

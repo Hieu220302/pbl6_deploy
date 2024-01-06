@@ -1,0 +1,520 @@
+/* Business.css */
+.menubusiness {
+    height: 1000px;
+    width: 260px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.menu-business {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-business label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.menu-business ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-business li {
+    margin-bottom: 5px;
+}
+
+.menu-business a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-business a:hover {
+    text-decoration: underline;
+}
+
+/* track .................*/
+/* Track.css */
+
+/* Track.css */
+
+/* Add your CSS rules here */
+
+.track-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.track-container h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.track-container p {
+    padding-left: 20px;
+    color: black;
+}
+
+.track-container form {
+    margin-top: 20px;
+}
+
+.track-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+}
+
+.track-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.track-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.track-container button:hover {
+    background-color: #45a049;
+}
+.tracking-info {
+    height: 100%;
+}
+.tracking-headerp {
+    background-color: #606eca;
+    font-weight: bold;
+}
+.tracking-headerp,
+.tracking-infop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+    .editproduct {
+        background-color: blue;
+        width: 60px;
+        display: inline-block;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .deleteproduct {
+        background-color: red;
+        width: 60px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .unproduct {
+        background-color: rgb(255, 153, 0);
+        width: 60px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .buttonproduct {
+        background-color: rgb(29, 149, 73);
+        width: 60px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .view {
+        background-color: rgb(255, 153, 0);
+        width: 70px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .edit {
+        background-color: blue;
+        width: 70px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .delete {
+        background-color: red;
+        width: 70px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+}
+.tracking-headersale,
+.tracking-infosale {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+    .editproduct {
+        background-color: blue;
+        width: 48px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .deleteproduct {
+        background-color: red;
+        width: 47px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .unproduct {
+        background-color: rgb(255, 153, 0);
+        width: 47px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .view {
+        background-color: rgb(255, 153, 0);
+        width: 70px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .edit {
+        background-color: blue;
+        width: 70px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .delete {
+        background-color: red;
+        width: 70px;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+}
+
+.action-button,
+.delete {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button {
+    background-color: #007bff;
+    width: 100px;
+}
+
+.delete {
+    background-color: #dc3545;
+    width: 100px;
+}
+
+.action-button:hover,
+.delete:hover {
+    background-color: #0056b3;
+}
+.divproductB {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divproductC {
+    width: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.divproductB,
+.divproductC > div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.tracking-header {
+    font-weight: bold;
+    background-color: #606eca;
+    margin-top: 20px;
+}
+.tracking-headersale {
+    font-weight: bold;
+    background-color: #606eca;
+    margin-top: 20px;
+}
+
+.tracking-infop img {
+    max-width: 70px;
+    border-radius: 4px;
+}
+.divbussiness {
+    font-weight: bold;
+    padding: 10px;
+    color: #333;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalnewproduct {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    position: relative;
+    background: white;
+    padding: 20px;
+    width: 80%;
+    max-height: 80%; /* Set the maximum height for the modal */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.formgroupimg {
+    margin-bottom: 16px;
+}
+
+.formimggroup {
+    display: flex;
+    flex-wrap: wrap; /* Để hỗ trợ xuống dòng khi không đủ không gian */
+    gap: 10px; /* Để tạo khoảng cách giữa các hình ảnh */
+    padding-left: 150px;
+}
+
+.formimggroup label {
+    margin-bottom: 8px;
+}
+
+.imgaddproduct {
+    width: 110px;
+    height: 110px;
+}
+.formimggroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.imgaddproduct {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+.form-group.inputform {
+    padding-left: 100px;
+}
+.form-group input {
+    flex: 1;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    width: 150px;
+}
+.form-group img {
+    height: 150px;
+    width: 150px;
+    margin-left: 8px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 450px;
+}
+
+.modal-buttons button {
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 30px; /* Thêm margin nếu bạn muốn khoảng cách giữa các nút */
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.chart-title {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.recharts-dot.recharts-line-active {
+    fill: #41a0ff;
+    stroke: #fff;
+}
+
+.recharts-bar-rectangles {
+    fill: #55d8fe;
+}
+.chart-table {
+    width: 1000px;
+}
+.date-pickers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-pickers div {
+    margin-right: 0px;
+}
